@@ -1,8 +1,10 @@
 
+<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default"></script>
+
 回归问题一般可以归纳为公式：
 
-![](http://www.forkosh.com/mathtex.cgi? f(x) = w^Tx)
-$f(x) = w^Tx$
+
+$$f(x) = w^Tx$$
 
 x为n*m维的样本，w为m*1的参数，y为m*1的目标值，
 errors = f(x) – y 为所有样本的预测值和目标值的误差和。
